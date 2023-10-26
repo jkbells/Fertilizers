@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<header>
+    <nav>
+        <div class="container">
+            <h3 class="logo" style="color: #008000; font-weight: 1000;">Eco<span
+                    style="color: #ffffff;">Fertilization</span></h3>
+        </div>
+    </nav>
+
+    <h1 class="big-title translate" data-speed="0.5">We Make Your Land With<br> The Best Value</h1>
+    
+    <img src="/static/parallax/top1.png" class="top translate" data-speed="0.3" alt="">
+    <img src="/static/parallax/bottom2.png" class="Bottom translate" data-speed="-0.25" alt="">
+</header>
+
+<section id="scroll2">
+    <div class="shadow">
+        <a href="#scroll2">
+            <div class="scroll-down"></div>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="content opacity">
+            <h3 class="title">
+                Entered Details
+            </h3>
+
+            <div class="option2">
+                <p class="state1">{{FORM_DATA['crop']}}</p>
+            </div>
+            <br>
+            <div class="option1">
+                <p class="state1">{{FORM_DATA['state']}}</p>
+                <br>
+                <p class="state1">{{FORM_DATA['city']}}</p>
+            </div>
+
+            
+            {% if CALL_SUCCESS|length == 1 %}
+            <div class="answer">
+                <h3 style="text-align: center; margin-bottom: auto; margin-top: auto;">Required Nutrient Ratio</h3>
+                    <br>
+                <dl>
+                    <dt><h4>N :&nbsp; &nbsp; </h4></dt>
+                    <dd>{{ NPK[0]['Label_N'] }}</dd>
+                    <br>
+                    <dt><h4>P :&nbsp; &nbsp;</h4></dt>
+                    <dd>{{ NPK[0]['Label_P'] }}</dd>
+                    <br>
+                    <dt><h4>K : &nbsp; &nbsp; </h4></dt>
+                    <dd>{{ NPK[0]['Label_K'] }}</dd>
+                    <br>
+                </dl>
+                <hr>
+                <h4>{{ POPUP_DATA[0][0]}}</h5>
+                <h5>{{ POPUP_DATA[0][1]}}</h5>
+                <h6>{{ POPUP_DATA[0][2]}}</h6>
+            </div>
+            {% endif %}
+
+            {% if CALL_SUCCESS|length == 0 %}
+            <div class="answer">
+            <h4>Data not available, try different city.</h4>
+            </div>
+            {% endif %}
+
+            
+            <a href="/" style="text-align: center;">
+                <form action="/">
+                    <button type="submit">&lt; Back</button>
+                </form>
+            </a>
+        </div>
+
+        {% if CALL_SUCCESS|length == 1 %}
+        <div class="days3">
+            <h3 style="text-align:left;  letter-spacing: 5px;">&nbsp;&nbsp;&nbsp;&nbsp; 7 DAYS REPORT<hr></h3>
+            <br>
+            {% for di in SEVEN_DAYS %}
+            <div class="days2">
+            {% for key,value in di.items() %}
+                  {{key}} : {{value}}
+                  <br>
+                  {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        
+    </div>
+<script>
+    window.scrollBy(0, 1110)
+
+</script>
+ </section>
+
+<footer class="footer">
+    <div class="container2">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Jawad khan</h4>
+                <ul>
+                    <li><a href="#">p190053</a></li>
+                    <li><a href="#">BSCS</a></li>
+                    <li><a href="#">Department of Computer Science</a></li>
+                    <li><a href="">Fast National University of Computer and Emerging Science</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Mohammad Usman</h4>
+                <ul>
+                    <li><a href="#">p190106</a></li>
+                    <li><a href="#">BSCS</a></li>
+                    <li><a href="#">Department of Computer Science</a></li>
+                    <li><a href="">Fast National University of Computer and Emerging Science</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% endblock %}
