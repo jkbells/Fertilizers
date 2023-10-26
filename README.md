@@ -47,12 +47,8 @@ Fertilizer use is typically under the limited control of farmers. For the farmer
 
 ## Screenshots
 <div style="width:90%;">
-<img src="https://github.com/Gekko12/Eco-fertilization/blob/main/material/Front_Page.jpg" alt="Front" width=90%/>
-<img src="https://github.com/Gekko12/Eco-fertilization/blob/main/material/Section_2.jpg" alt="Section1" width=90%/>
-<img src="https://github.com/Gekko12/Eco-fertilization/blob/main/material/Section_2_1.jpg" alt="Section2"  width=90%/>
-<img src="https://github.com/Gekko12/Eco-fertilization/blob/main/material/Section_2_2.jpg" alt="Section3"  width=90%/>
-<img src="https://github.com/Gekko12/Eco-fertilization/blob/main/material/Section_2_3.jpg" alt="Section4" width=90%/>
+	![FRS](https://github.com/jkbells/Fertilizers/assets/73393333/f853f0fd-7628-4e55-93b9-40351e73c11d)
+	![67b65fee-6908-450a-8350-f5e64a618d84](https://github.com/jkbells/Fertilizers/assets/73393333/d42acafe-888c-4bd6-bd9a-d593a85f3ef6)
+	![Result](https://github.com/jkbells/Fertilizers/assets/73393333/69c7a008-7a1d-457f-b05b-a026962a6f42)
 </div>
 
-## Reference Video 
-[Click to play video](https://drive.google.com/file/d/1lL5mmASWBbWVkvTqSFHfkhVXbXj_YDVn/view?usp=sharing)
