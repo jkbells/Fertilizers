@@ -47,8 +47,7 @@ Fertilizer use is typically under the limited control of farmers. For the farmer
 
 ## Screenshots
 <div style="width:90%;">
-	![FRS](https://github.com/jkbells/Fertilizers/assets/73393333/f853f0fd-7628-4e55-93b9-40351e73c11d)
-	![67b65fee-6908-450a-8350-f5e64a618d84](https://github.com/jkbells/Fertilizers/assets/73393333/d42acafe-888c-4bd6-bd9a-d593a85f3ef6)
-	![Result](https://github.com/jkbells/Fertilizers/assets/73393333/69c7a008-7a1d-457f-b05b-a026962a6f42)
+	![FRS](https://github.com/jkbells/Fertilizers/assets/73393333/e946b419-6461-4e8d-be28-f270fb3e56dd)
+
 </div>
 
