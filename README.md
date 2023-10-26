@@ -46,8 +46,5 @@ Fertilizer use is typically under the limited control of farmers. For the farmer
 * Also message/alert is displayed below the result. Seven days weather forecasts is also displayed along with the result. 
 
 ## Screenshots
-<div style="width:90%;">
-	![FRS](https://github.com/jkbells/Fertilizers/assets/73393333/e946b419-6461-4e8d-be28-f270fb3e56dd)
-
-</div>
+![FRS](https://github.com/jkbells/Fertilizers/assets/73393333/e946b419-6461-4e8d-be28-f270fb3e56dd)
 
